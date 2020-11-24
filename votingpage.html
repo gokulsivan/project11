@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Voting page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylevoting.css">
+</head>
+
+<body>
+    <div class="section-1"> <!--navigation bar-->
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="name">
+            <img class="logo" src="imageskac/SCTCE.jpg" alt="image">
+            <i>EBALLOTSCT</i>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav moveright">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="#">VOTE</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="knowaboutcandidates.html">KNOW ABOUT THE CANDIDATES</a>
+                </li>
+            </ul>
+            <h5 class="result" id="message"></h5>
+        </div>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                            <h5 class="card-title">CHAIRMAN</h5>
+                            <input type="radio" id="c1" name="chairman" value="c1">
+                            <label for="c1">CANDIDATE 1</label><br>
+                            <input type="radio" id="c2" name="chairman" value="c2">
+                            <label for="c1">CANDIDATE 2</label><br>
+                            <input type="radio" id="c3" name="chairman" value="c3">
+                            <label for="c1">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">VICE CHAIRMAN</h5>
+                            <input type="radio" id="v1" name="vc" value="v1">
+                            <label for="v1">CANDIDATE 1</label><br>
+                            <input type="radio" id="v2" name="vc" value="v2">
+                            <label for="v2">CANDIDATE 2</label><br>
+                            <input type="radio" id="v3" name="vc" value="v3">
+                            <label for="v3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                         <div class="options">
+                            <h5 class="card-title">GENERAL SECRETARY</h5>
+                            <input type="radio" id="gs1" name="gs" value="gs1">
+                            <label for="gs1">CANDIDATE 1</label><br>
+                            <input type="radio" id="gs2" name="gs" value="gs2">
+                            <label for="gs2">CANDIDATE 2</label><br>
+                            <input type="radio" id="gs3" name="gs" value="gs3">
+                            <label for="gs3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                         <div class="options">
+                        <h5 class="card-title">ARTS CLUB SECRETARY</h5>
+                            <input type="radio" id="acs1" name="acs" value="acs1">
+                            <label for="acs1">CANDIDATE 1</label><br>
+                            <input type="radio" id="acs2" name="acs" value="acs2">
+                            <label for="acs2">CANDIDATE 2</label><br>
+                            <input type="radio" id="acs3" name="acs" value="acs3">
+                            <label for="acs3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">SPORTS SECRETARY</h5>
+                            <input type="radio" id="sc1" name="sc" value="sc1">
+                            <label for="sc1">CANDIDATE 1</label><br>
+                            <input type="radio" id="sc2" name="sc" value="sc2">
+                            <label for="sc2">CANDIDATE 2</label><br>
+                            <input type="radio" id="sc3" name="sc" value="sc3">
+                            <label for="sc3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                            <h5 class="card-title">UUC- 1</h5>
+                            <input type="radio" id="uca1" name="uuc1" value="uca1">
+                            <label for="uca1">CANDIDATE 1</label><br>
+                            <input type="radio" id="uca2" name="uuc1" value="uca2">
+                            <label for="uca2">CANDIDATE 2</label><br>
+                            <input type="radio" id="uca3" name="uuc1" value="uca3">
+                            <label for="uca3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">UUC- 2</h5>
+                            <input type="radio" id="ucb1" name="uuc2" value="ucb1">
+                            <label for="ucb1">CANDIDATE 1</label><br>
+                            <input type="radio" id="ucb2" name="uuc2" value="ucb2">
+                            <label for="ucb2">CANDIDATE 2</label><br>
+                            <input type="radio" id="ucb3" name="uuc2" value="ucb3">
+                            <label for="uca3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">MAGAZINE EDITOR</h5>
+                            <input type="radio" id="me1" name="me" value="me1">
+                            <label for="me1">CANDIDATE 1</label><br>
+                            <input type="radio" id="me2" name="me" value="me2">
+                            <label for="me2">CANDIDATE 2</label><br>
+                            <input type="radio" id="me3" name="me" value="me3">
+                            <label for="me3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">LADY REP- 1</h5>
+                            <input type="radio" id="la1" name="lr1" value="la1">
+                            <label for="la1">CANDIDATE 1</label><br>
+                            <input type="radio" id="la2" name="lr1" value="la2">
+                            <label for="la2">CANDIDATE 2</label><br>
+                            <input type="radio" id="la3" name="lr1" value="la3">
+                            <label for="la3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="options">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">LADY REP- 2</h5>
+                            <input type="radio" id="lb1" name="lr2" value="lb1">
+                            <label for="lb1">CANDIDATE 1</label><br>
+                            <input type="radio" id="lb2" name="lr2" value="lb2">
+                            <label for="lb2">CANDIDATE 2</label><br>
+                            <input type="radio" id="lb3" name="lr2" value="lb3">
+                            <label for="lb3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">YEAR REP X</h5>
+                            <input type="radio" id="X1" name="yr" value="X1">
+                            <label for="X1">CANDIDATE 1</label><br>
+                            <input type="radio" id="X2" name="yr" value="X2">
+                            <label for="X2">CANDIDATE 2</label><br>
+                            <input type="radio" id="X3" name="yr" value="X3">
+                            <label for="X3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <div class="options">
+                        <h5 class="card-title">ASSOCIATION SECRETARY</h5>
+                            <input type="radio" id="as1" name="as" value="as1">
+                            <label for="as1">CANDIDATE 1</label><br>
+                            <input type="radio" id="as2" name="as" value="as2">
+                            <label for="as2">CANDIDATE 2</label><br>
+                            <input type="radio" id="as3" name="as" value="as3">
+                            <label for="as3">CANDIDATE 3</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary btn-lg btn-block submitbutton"><a href="index.html">Submit Vote</a> </button>
+            </div>
+        <div class="col"></div>
+    </div>
+</body>
+    <script src=votingpage.js></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="bootstrap-4-alpha.6-dist/js/bootstrap.min.js"></script>
+</html>>

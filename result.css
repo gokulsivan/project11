@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.result{
+    color: white;
+    margin: 10px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: Platino Linotype;
+    font-size: 25px;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+
+	font-family: Palatino Linotype;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:10px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+.button button{
+    font-family: 'Times New Roman', Times, serif;
+	height: 100%;
+    width: 240px;
+    padding: 15px;
+	border: none;
+	cursor: pointer;
+    font-size: 20px;
+	border-radius: 35px;
+	margin:15px;
+    text-transform: uppercase;
+	color: white;
+	background-color: blue;
+}
+
+.button button:hover{
+    background: green;
+	transition: background-color 0.5s ease-out;
+    
+    box-shadow:  0 0 5px white,
+    0 0 10px white;
+}
+@media(max-width:960px){
+	.container >*{
+		padding: 1rem;
+	}
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.section-1 button{
+		margin-top: 10px;
+	}
+	.moveright{
+		margin-left:30px;
+	}
+	
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+}
+

@@ -1,0 +1,132 @@
+body{
+	overflow-x: hidden;
+	background-color:#f2f2f2;
+}
+.logo{
+	height:60px;
+	width:50px;
+}
+.navbar{
+	margin: 0px;
+	width: 100%;
+	padding: 5px;
+}
+.moveright{
+
+	font-family: Palatino Linotype;
+}
+.name{
+	display: flex;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Palatino Linotype;
+	color: white;
+}
+.name i{
+	margin:10px;
+}
+.navbar i{
+	width: 300px;
+}
+.nav-item{
+	padding:10px;
+	font-size: 18.7px;
+}
+.nav-link:hover{
+	font-size: 19.8px;
+	color: white;
+	background-color: grey;
+}
+.box{
+	width: 200px;
+	padding: 10px;
+	margin:15px;
+	border-radius: 10px;
+}
+.container1{
+	font-size: 18px;
+	margin-top: 40px;
+}
+.details{
+	margin-top: 20px;
+	font-family: serif;
+	font-weight:bold;
+	margin-left: auto;
+	text-align: center;
+}
+.details h4{
+	font-size: 22px;
+	font-family: serif;
+	font-weight:bold;
+	margin-left: 20px;
+}
+.container1 p{
+	font-family: serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin-left: 60px;
+}
+.card{
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.card img{
+	width:250px;
+	height: 250px;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 0px;
+}
+.sideheading{
+	text-align: center;
+	font-style: italic;
+	font-family:Book Antiqua;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 40px;
+}
+.OptPos{
+	display:flex;
+}
+.OptPos button{
+	width:200px;
+	margin:auto;
+	margin-left: 15px;
+	border-radius: 5px;
+
+}
+@media(max-width:980px){
+	html,body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.moveright{
+		margin-left: 30px;
+	}
+	.section-1 button{
+		
+		margin-top: 10px;
+	}
+	.container1 p{
+		max-width: 100%;
+		margin-left: 20px;
+	}
+	.card{
+		max-width: 100%;
+		
+	}
+	.logo{
+		height: 50px;
+		width:40px;
+	}
+	.name{
+		font-size: 22px;
+	}
+	.box{
+		max-width: 100%;
+		margin-top: 10px;
+	}
+}
